@@ -1,0 +1,38 @@
+header{
+    background-color:#E5E5E5;
+    text-align: center;
+}
+h1{
+    color: #005677;
+    background-color: #C4C4C4;
+    text-align: center;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #005677;
+    font-variant-caps: all-petite-caps;
+    background-color: #C4C4C4;
+}
+
+.datosPersonales{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fecha{
+    font-weight: bold;
+}
+
+.texto{
+    font-weight: normal;
+}
+
+.sangria{
+    padding-left:78px;
+}
+
+footer{
+    background-color: #005677;
+    text-align: center;
+    color: white;
+}
