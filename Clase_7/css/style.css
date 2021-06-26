@@ -7,6 +7,13 @@ h1{
     background-color: #C4C4C4;
     text-align: center;
 }
+
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
 h3{
     font-family: 'Times New Roman', Times, serif;
     color: #005677;
