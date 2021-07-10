@@ -155,11 +155,7 @@ button{
     color: #fff;
 }
 
-/*Footer*/
-
-footer{
-    background-color: #3C2313;
-}
+/*suscrib & Footer */
 
 #suscrib{
     display: flex;
@@ -188,6 +184,10 @@ footer{
     color: #fff;
     font-weight: 700;
     font-size: 9px;
+}
+
+footer{
+    background-color: #3C2313;
 }
 
 #foot{

@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*Header*/
+
+header {
+    margin-bottom: 10px;
+}
+
+.barra_sup {
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+
+.barra_inf {
+    background-color: #00669F;
+    padding: 27px;
+}
+
+.barra_inf p {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    background-color: #001D2D;
+    padding: 0.5em;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+/*Main Login*/
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 15% 0;
+}
+
+section.login {
+    width: 620px;
+}
+
+.datos {
+    margin: 55px 0;
+}
+
+input {
+    width: 620px;
+    height: 60px;
+}
+
+.datos input[type="email"], .datos input[type="password"], .datos input[type="text"] {
+    margin-bottom: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    width: inherit;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+
+.registrar {
+    text-align: center;
+}
+
+/*Footer*/
+
+footer {
+    margin-top: 10px;
+    background-color: #00669F;
+    text-align: center;
+}
+
+.title_footer {
+    color: #fff;
+    padding: 16px;
+}
+
+/*Registro*/
+
+select {
+    width: 620px;
+    height: 60px;
+}
+
+button  {
+    width: 300px;
+    height: 54px;
+    border-radius: 23px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.reset {
+    background-color: gray;
+    color: #fff;
+}
+
+.send {
+    background-color: #1CD1B0;
+    color: #000;
+
+}
+
+/*Contact*/
+
+textarea{
+    width: 620px;
+}
