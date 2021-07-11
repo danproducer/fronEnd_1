@@ -74,10 +74,15 @@ input {
     font-size: 30px;
 }
 
-
-
 .registrar {
     text-align: center;
+}
+
+button.in{
+    width: 620px;
+    height: 54px;
+    background-color: #1CD1B0;
+    color: #000;
 }
 
 /*Footer*/
