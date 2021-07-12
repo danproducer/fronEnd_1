@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scale=no">
+        <link rel="stylesheet" href="style/normalize.css">
         <link rel="stylesheet" href="style/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,44 +27,63 @@
             </nav>
         </header>
         <main>
-            <section class="card batman">
-                <div class="header_card_batman">
-                    <img src="img/cora.png" class="cora" alt="">
-                    <img src="img/batman.png" class="perfil" alt="">
-                </div>
-                <div class="body_card">
-                    <p class="title">BATMAN</p>
-                    <p class="contein">Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, Detective Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing
-                    </p>
-                    <button type="button" class="btn_mas">Ver mas</button>
-                </div>
-            </section>
-    
-            <section class="card quinn">
-                <div class="header_card_quinn">
-                    <img src="img/cora.png" class="cora" alt="">
-                    <img src="img/quinn.png" class="perfil" alt="">
-                </div>
-                <div class="body_card">
-                    <p class="title">Harley Quinn</p>
-                    <p class="contein">La creación de Harley Quinn fue una idea de último minuto propuesta por el escritor estadounidense Paul Dini para modificar una escena del vigésimo-segundo episodio de Batman: la serie animada
-                    </p>
-                    <button type="button" class="btn_mas">Ver mas</button>
-                </div>
-            </section>
-    
-            <section class="card batman">
-                <div class="header_card_batman">
-                    <img src="img/cora.png" class="cora" alt="">
-                    <img src="img/batman.png" class="perfil" alt="">
-                </div>
-                <div class="body_card">
-    
-                    <p class="title">BATMAN</p>
-                    <p class="contein">Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, Detective Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing
-                    </p>
-                    <button type="button" class="btn_mas">Ver mas</button>
-                </div>
+            <section class="cards">
+                <article class="hero">
+                    <div class="header__hero">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="img/xs/baticueva.png">
+                            <source media="(max-width: 769px)" srcset="img/md/baticueva.png">
+                            <img src="img/baticueva.png" class="bground" alt="">
+                        </picture>
+                        <img src="img/hearh.png" class="heart" alt="">
+                        <img src="img/batman.png" class="profile" alt="">
+                    </div>
+                    <div class="body__hero">
+                        <h2>Batman</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum libero cum harum, aut impedit ratione sint vero placeat qui optio cupiditate dolores odio quasi esse ad eligendi molestiae quo enim.
+                        </p>
+                        <button type="button" class="btn_mas">Ver mas</button>
+                    </div>
+                </article>
+
+                <article class="hero">
+                    <div class="header__hero">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="img/xs/colors.png">
+                            <source media="(max-width: 769px)" srcset="img/md/colors.png">
+                            <img src="img/colors.png" class="bground" alt="">
+                        </picture>
+                        <img src="img/hearh.png" class="heart" alt="">
+                        <img src="img/harley.png" class="profile" alt="">
+                    </div>
+                    <div class="body__hero">
+                        <h2>Harley</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum libero cum harum, aut impedit ratione sint vero placeat qui optio cupiditate dolores odio quasi esse ad eligendi molestiae quo enim.
+                        </p>
+                        <button type="button" class="btn_mas">Ver mas</button>
+                    </div>
+                </article>
+
+                <article class="hero">
+                    <div class="header__hero">
+                        <picture>
+                            <source media="(max-width: 480px)" srcset="img/xs/tamsesira.png">
+                            <source media="(max-width: 769px)" srcset="img/md/tamesira.png">
+                            <img src="img/tamesira.png" class="bground" alt="">
+                        </picture>
+                        <img src="img/hearh.png" class="heart" alt="">
+                        <img src="img/wonderw.png" class="profile" alt="">
+                    </div>
+                    <div class="body__hero">
+                        <h2>Batman</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum libero cum harum, aut impedit ratione sint vero placeat qui optio cupiditate dolores odio quasi esse ad eligendi molestiae quo enim.
+                        </p>
+                        <button type="button" class="btn_mas">Ver mas</button>
+                    </div>
+                </article>
             </section>
         </main>
         <footer>
